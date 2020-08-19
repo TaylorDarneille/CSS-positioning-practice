@@ -1,12 +1,17 @@
-# CSS Positioning Practice
-
-Now that you know some of the old-school ways of working with [display and positioning](https://tmdarneille.gitbook.io/seirfx/03-html-css/00readme/02display-positioning) in CSS, it's time to ramp up your CSS skills by learning some of the hot new tools for working with display and positioning: flexbox and grid!
+# CSS Display & Positioning Practice
 
 ---
 
 ### Getting Started
 * Fork and clone this repository to your computer
 * **For part 4:** An HTML file (`index.html`) and CSS file (`css/style.css`) have been created for you. Content is also provided in a folder called `img`.
+
+---
+## Part 0:
+
+Read through the notes on [display and positioning in CSS](https://tmdarneille.gitbook.io/seirfx/03-html-css/00readme/02display-positioning) to learn about the traditional CSS methods for manipulating where html elements show up on a page.
+
+Now, let's ramp up your CSS skills by learning some of the hot new (and widely used) tools for working with display and positioning: flexbox and grid!
 
 ---
 

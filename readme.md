@@ -59,6 +59,7 @@ Here's a screenshot of the portion that should be replicated. Deliver the mockup
 
 * You can take a shot at designing the [alternate home page](https://www.airbnb.com/?logo=1). Try to narrow your focus to a few parts and get as realistic of a copy as you can!
 
+## Part 5: Make a Pull Request!
 
 ---
 ### History

@@ -1,0 +1,5 @@
+Flexbox and grid are both used to position elements. They both can achieve a plethora of the same results while also having separating characteristics that may lead you to using either in different ways.
+
+Flexbox mainly positions elements by only moving them in a one-dimensional direction. This means it's mainly used for a position change in either a row or a column, not typically both at the same time. Flexbox also has a larger compatibility than grid currently for most browsers. You can wrap elements to make them look two dimensional, but bear the consequence of less "customization." 
+
+CSS Grid positions elements by moving them in a two-dimensional direction. You can move elements either by a row or column. The grid is great for overall page structure and positioning elements. Grid offers a little more flexibility in this case vs. Flexbox. 

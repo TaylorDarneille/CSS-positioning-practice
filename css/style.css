@@ -1,3 +1,62 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background: #ededed;
+  color: rgb(109, 108, 108);
+  font-family: 'Roboto', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*div {
+  text-align: center;
+  max-width: 960px;
+  margin: auto;
+}*/
+
+button {
+  color: rgb(109, 108, 108);
+  margin: 0px 0px 80px 0px;
+  width: 25%;
+  transform: translate(-8%, -300%);
+}
+
+.pictures {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  display: inline;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-text {
+  /*margin: 0 auto;*/
+  color: white;
+  font-size: 180%;
+  -webkit-text-stroke: .1px black;
+  transform: translate(-7%,-550%);
+  text-align: center;
+  /*display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;*/
+}
+
+@media only screen and (max-width: 600px) {
+  .pictures {
+    width: 100%;
+  }
+  .picture-text {
+    display: none;
+  }
+  button {
+    color: rgb(109, 108, 108);
+    margin: 0px 0px 80px 0px;
+    width: 25%;
+    transform: translate(5%, 30%);
+  }
 }

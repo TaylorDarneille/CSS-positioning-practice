@@ -1,10 +1,10 @@
 # FLEXBOX: #
 - Single-axis oriented 
 - Widely implemented 
- - If an element is targeted by display: flex; it becomes a flex container 
--> **flex-direction** property orients flex container's main-axis (sets directional flow of flex-items)
--> **justify-content** property aligns content relative to main-axis
--> **align-content** property controls how rows/ columns are arranged relative to the cross-axis (flex-start, flex-end, strech, center, space-between, space-around)
+- If an element is targeted by display: flex; it becomes a flex container 
+- **flex-direction** property orients flex container's main-axis (sets directional flow of flex-items)
+- **justify-content** property aligns content relative to main-axis
+- **align-content** property controls how rows/ columns are arranged relative to the cross-axis (flex-start, flex-end, strech, center, space-between, space-around)
 
 # CSS GRID: #
 - Newer than Flexbox, but not as widely implemented (and might not be supported on all browsers)

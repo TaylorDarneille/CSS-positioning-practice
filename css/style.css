@@ -1,3 +1,18 @@
-h1 {
-  color: salmon;
+body {
+  background-color:gray;
+}
+h2 {
+  color: black;
+}
+h3 {
+  color:black;
+}
+#title-top {
+  text-align:center;
+}
+.centered-images {
+  text-align: center;
+}
+button {
+  text-align:center;
 }

@@ -1,3 +1,83 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  justify-items: center;
+  background-color: #e8e6e3;
+}
+
+h1, p{
+  color: #5c6467;
+}
+
 h1 {
-  color: salmon;
+  margin: 20px 0px 2px 0px;
+}
+
+p { 
+  margin: 2px 0px 16px 0px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: nowrap;
+  grid-gap: 20px;
+}
+
+.centered {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 1px solid rgb(133, 133, 133);
+}
+
+.centered > p{
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+}
+
+.centered > p, h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.see-all-button {
+  border-radius: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 1px solid #798285;
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#san-fran-1 {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+#new-york{
+  background-image: url("../img/new-york.jpg");
+}
+
+#london {
+  background-image: url("../img/london.jpg");
+}
+
+#napa {
+  background-image: url("../img/napa.jpg");
+}
+
+#sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
+
+#san-fran-2 {
+  background-image: url("../img/san-francisco-2.jpg");
 }

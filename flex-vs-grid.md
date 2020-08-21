@@ -1,0 +1,1 @@
+# The difference between Flexbox and grid that I saw is that in flexbox i was able to wrap whatever I am working on to the next row. With grid, I would have to give it a different row for the others to go to the next row. Another difference is that with grid, you are using an actual grid. Flexbox equals no grid.

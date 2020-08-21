@@ -3,3 +3,5 @@
 ## The similarities may be the fact that both move things to different places on the screen.  I notice that when using both, you are just telling the computer what position you want the object to go to.
 
 ### Just Trying to see if I am pushing correctly.
+
+#### Im sorry! This has nothing to do with the assignment. Im just glad I am finally being able to push.

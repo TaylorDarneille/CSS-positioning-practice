@@ -24,3 +24,8 @@ p {
   display: flex;
   flex-direction: space-around;
 }
+
+.second {
+  display: flex;
+  flex-direction: space-around;
+}

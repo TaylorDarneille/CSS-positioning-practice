@@ -1,3 +1,99 @@
+@font-face {
+  font-family: "Circular";
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot");
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot?#iefix") format("embedded-opentype"),
+    url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.woff") format("woff"),
+    url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Circular-bold";
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
+    url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
+    url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(234 237 233);
+  font-family: Circular-bold;
+  color: rgb(74 77 80);
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+button {
+  font-family: "Circular-bold";
+  background: white;
+  border: 1px solid rgb(194, 193, 198);
+  height: 40px;
+  width: 233px;
+  color: rgb(74 77 80);
+  font-size: 12px;
+  margin-top: 10px
+}
+
 h1 {
-  color: salmon;
+  font-size: 26px;
+  margin: 0 auto;
+  letter-spacing: 0.75px;
+}
+
+h4 {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.6px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: Circular
+}
+
+.image-row {
+  display: flex;
+  margin: 20px auto;
+}
+
+.panel {
+  width: 233px;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+#sf {
+  background-image: url(../img/san-francisco.jpg);
+}
+
+#napa {
+  background-image: url(../img/napa.jpg);
+}
+
+#london {
+  background-image: url(../img/london.jpg);
+}
+
+#sf2 {
+  background-image: url(../img/san-francisco-2.jpg);
+}
+
+#sonoma {
+  background-image: url(../img/sonoma.jpg);
+}
+
+#ny {
+  background-image: url(../img/new-york.jpg);
 }

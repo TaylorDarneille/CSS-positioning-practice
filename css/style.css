@@ -41,6 +41,7 @@ p {
 
 .centered > p, h1 {
   font-size: 25px;
+  font-weight: bold;
 }
 
 .see-all-button {
@@ -53,6 +54,8 @@ p {
   text-align: center;
   vertical-align: center;
   line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #san-fran-1 {

@@ -20,12 +20,13 @@ p {
 
 }
 
-.first {
+.places {
   display: flex;
-  flex-direction: space-around;
+  justify-content: center;
+  padding: 5%;
 }
 
-.second {
+.row {
   display: flex;
-  flex-direction: space-around;
+  justify-content: space-around;
 }

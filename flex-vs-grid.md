@@ -1,3 +1,1 @@
-# Let's see if this works
-
-## Testing testing 1 2 3
+## What I learned about Flexbox and Grid is that while one is more focused on changing the space around the content, the other is more focused on making changes to the content. A difference that Flexbox and Grid have is that Flexbox works for chaging the layout for either a row or column. With Grid you can change the layout of the coloumm and row at the same time.

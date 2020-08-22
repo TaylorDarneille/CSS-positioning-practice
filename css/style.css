@@ -1,3 +1,52 @@
+body {
+  background: lightgray
+}
+
 h1 {
-  color: salmon;
+  color: rgb(87, 82, 82);
+  text-align: center;
+  font-size: 30px
+}
+
+h2 {
+  color: rgb(87, 82, 82);
+  text-align: center;
+  font-size: 12px;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(87, 82, 82);
+  font-size: 25px;
+  margin: 5 auto;
+  border: solid black;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  margin: auto 20px;
+}
+p {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+}
+
+img {
+  max-width: 75%;
+  max-height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.places {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
 }

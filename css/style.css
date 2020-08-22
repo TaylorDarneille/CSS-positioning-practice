@@ -1,3 +1,124 @@
+/* Airbnb font "Cereal" is proprietary - ended up using "Poppins" from a Reddit thread of suggestions */
+
+body{
+  background-color: RGB(237,239,236);
+  font-family: 'Poppins', sans-serif;
+  max-width: 768px;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 100px;
+  grid-template-rows: 1fr 4fr 1fr 1fr 4fr 1fr;
+}
+
 h1 {
-  color: salmon;
+  color:RGB(87,90,93);
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px auto;
+}
+
+h2 {
+  color:RGB(87,90,93);
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px auto;
+}
+
+img{
+  width: 236px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px 10px;
+}
+
+button{
+  background-color: RBG(255,255,255);
+  border: 1px solid RGB(195,195,195);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  width: 236px;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.meet {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+}
+
+div.meet{
+  margin: 0;
+  padding: 0;
+}
+
+#sfo{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+#nyc{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+#lon{
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+#guide{
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.weekend{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+}
+
+div.weekend{
+  margin: 0;
+  padding: 0;
+}
+
+
+#napa{
+  grid-column-start: 2;
+  grid-row-start: 5;
+}
+#son{
+  grid-column-start: 3;
+  grid-row-start: 5;
+}
+#sfo2{
+  grid-column-start: 4;
+  grid-row-start: 5;
+}
+
+#dest{
+  grid-column-start: 3;
+  grid-row-start: 6;
+}
+
+/* Text overlay method found on w3schools */
+
+.over {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }

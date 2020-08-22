@@ -1,3 +1,46 @@
-h1 {
-  color: salmon;
+body {
+  background-color: lightgray;
+
 }
+
+
+h1 {
+  margin: 60px 0 0 0;
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  align-content: center;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  align-content: center;
+}
+

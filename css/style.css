@@ -17,6 +17,7 @@ h2 {
 p {
   color: white;
   font-size: 30px;
+  position: absolute;
 }
 
 img {

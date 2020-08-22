@@ -17,12 +17,19 @@ h2 {
 p {
   color: white;
   font-size: 30px;
+}
 
+img {
+  max-width: 75%;
+  max-height: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .places {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 5%;
 }
 

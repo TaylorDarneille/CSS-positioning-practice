@@ -1,3 +1,86 @@
 h1 {
-  color: salmon;
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+  color:grey;
+  text-align: center;
+}
+.row1{
+  display: flex;
+  margin: 10px;
+}
+.container1{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  flex: 33.33%;
+  padding: 10px;
+
+}
+.row2{
+  display: flex;
+  margin: 10px;
+}
+.container2{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  flex: 33.33%;
+  padding: 10px;
+}
+.San-Francisco{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.New-York{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.London{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.Napa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.sonoma{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.San-Francisco-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.box {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid grey;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.box2{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid grey;
+  margin: 1;
+
+}
+
+body{
+  background-color: lightgrey;
 }

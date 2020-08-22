@@ -1,0 +1,1 @@
+Flexbox works inside a defined area to move objects contained in that space around. Grid works to define the divisions of a fixed area while the items inside are already fixed. If the defined area is an ice cube tray, flexbox decides which slots to put ice cubes in, and grid decides how many ice cube slots there are.

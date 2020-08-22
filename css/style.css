@@ -1,3 +1,21 @@
-h1 {
-  color: salmon;
+body{
+  font-family:'Lato', sans-serif;
+  background-color: rgb(240,248,255);
+  text-align: center;
+}
+div{
+  display: inline-block;
+}
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 5px;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+button{
+  display: inline-block;
+  font-size: 12px;
 }

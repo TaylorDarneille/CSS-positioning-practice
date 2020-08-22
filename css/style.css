@@ -1,3 +1,135 @@
-h1 {
-  color: salmon;
+/* to help me place the images I used https://www.w3schools.com/howto/howto_css_images_side_by_side.asp  */
+body{
+  background-color: rgb(238, 240, 237);
+  text-align: center;
+}
+.firstParagraph{
+
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: dimgray;
+  
+}
+.secondParagraph{
+
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: dimgray;
+  
+}
+.firstTitle{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: dimgray;
+  font-weight:bold;
+}
+.secondTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: strong;
+  display: flex;
+  justify-content: center;
+  color: dimgray;
+  font-weight:bold;
+}
+img{
+  object-fit: cover;
+  width: 200px;
+  height: 210px;
+
+}
+.groupOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+#imageOne{
+  padding: 5px;
+}
+.textImageOne{
+  position: absolute;
+
+}
+#imageTwo{
+  
+  padding: 5px;
+}
+#imageThree{
+  
+  padding: 5px;
+}
+.groupTwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#imageFour{
+  
+  padding: 11px;
+}
+#imageFive{
+  
+  padding: 11px;
+}
+
+#imageSix{
+  
+  padding: 11px;
+}
+.button{
+  font-family: 'Open Sans', sans-serif;
+  color: dimgray;
+  padding: 8px;
+  width: 200px;
+  background-color:white;
+  border: solid;
+  border-width: 0.5px;
+  margin: 30px;
+  
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.text1{
+  position: absolute;
+  top: 180px; 
+  left: 70px;
+  
+}
+.text2{
+  position: absolute;
+  top: 180px; 
+  left: 300px;
+    
+}
+.text3{
+  position: absolute;
+  top: 180px; 
+  left: 525px;
+   
+}
+.text4{
+  position: absolute;
+  top: 610px; 
+  left: 110px;
+   
+}
+.text5{
+  position: absolute;
+  top: 610px; 
+  left: 315px;
+  
+}
+.text6{
+  position: absolute;
+  top: 610px; 
+  left: 500px;
+
 }

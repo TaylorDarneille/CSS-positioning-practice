@@ -1,3 +1,105 @@
-h1 {
-  color: salmon;
+body{
+  background-color: rgb(214, 214, 214);
+  font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  color: rgb(65, 61, 61);
+ text-align: center;
+ 
+}
+h3 {
+  color: rgb(65, 61, 61);
+  text-align: center;
+  font-size: smaller;
+  margin-top: -10px;
+}
+.sf {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -5;
+  margin-top: 15px;
+}
+.ny {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -4;
+  margin-top: 15px;
+}
+.lnd {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -3;
+  margin-top: 15px;
+}
+#first {
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+grid-column-start: -3;
+}
+p {
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+}
+.buttonone{
+  color: grey;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 275px;
+margin-right: 50px;
+height: 40px;
+  
+}
+
+
+
+
+.np {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -5;
+  margin-top: 15px;
+}
+.sanfran {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -4;
+  margin-top: 15px;
+}
+.sm {
+  height: 310px;
+  width: 275px;
+  display: grid;
+  grid-column-start: -3;
+  margin-top: 15px;
+}
+#second {
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+grid-column-start: -3;
+}
+p {
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+}
+.buttontwo{
+  color: grey;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 275px;
+margin-right: 50px;
+height: 40px;

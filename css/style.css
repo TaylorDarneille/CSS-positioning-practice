@@ -1,3 +1,110 @@
 h1 {
-  color: salmon;
+  color: #454545; 
+  font-weight: 500;
+  font-size: 25px;
+}
+h4 {
+  color: #454545; 
+  font-weight: 300;
+  font-size: 15px;
+  padding: 0px 0px 10px 0px;
+}
+body {
+  background-color: #ebf0ec;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  max-width: 900px;
+  padding: 40px 0px 0px 0px;
+}
+.first-row .second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#sf {
+  background-image: url(/img/san-francisco.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+#ny {
+  background-image: url(/img/new-york.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+#lon {
+  background-image: url(/img/london.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.box1 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #454545; 
+  border: 1px solid darkgrey; 
+  background-color: white;
+  margin: 1px 2px 3px 4px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 5px 8px;
+}
+
+#napa {
+  background-image: url(/img/napa.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+#sono {
+  background-image: url(/img/sonoma.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+#sf2 {
+  background-image: url(/img/san-francisco-2.jpg);
+  height: 200px; 
+  width: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.box2 {
+  font-weight: 400;
+  color: #454545; 
+  font-size: 12px;
+  border: 1px solid darkgrey; 
+  background-color: white;
+  margin: 1px 2px 3px 4px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 5px 8px;
 }

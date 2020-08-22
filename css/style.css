@@ -1,3 +1,33 @@
+
+
+
+
 h1 {
-  color: salmon;
+  text-align: center;
+  color: gray;
+  
+
 }
+
+h2 {
+  text-align: center;
+  color: gray;
+}
+
+
+
+p {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:  repeat(3,1fr);
+  align-items: center;
+  align-content: space-around;
+  }
+
+ 
+  

@@ -1,0 +1,135 @@
+.num1 {
+  color: #595959;
+  text-align: center;
+  text-emphasis: bold;
+}
+
+.discover {
+  color: gray;
+  text-align: center;
+}
+
+img {
+  margin-left: 300px;
+  width: 250px;
+  height: 250px;
+  margin-top: 0px;
+}
+
+.ny{
+  margin-left: 20px;
+  width: 250px;
+  height: 250px;
+  margin-top: 0px;
+}
+
+.london{
+margin-top: -500px;
+height: 274px;
+weight: 230px;
+margin-left: 850px;
+}
+
+.box{
+  color: #595959;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+.weekend{
+  text-align: center;
+  padding: 30px 2px 3px 4px;
+  font-size: 25px;
+  color: #595959;
+}
+
+.home{
+  padding: 1px 2px 3px 4px;
+  text-align: center;
+  color: gray;
+}
+
+.napa{
+  margin-left: 300px;
+  width: 250px;
+  height: 250px;
+}
+
+.sanoma{
+  margin-left: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.sanfran2{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.box2{
+  color: gray;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+body{
+ font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sf{
+  position: absolute;
+  top: 32%;
+  left: 24%;
+  color: white;
+  font-size: 30px;
+}
+
+.newyork{
+  position: absolute;
+  top: 32%;
+  left: 45%;
+  color: white;
+  font-size: 30px;
+}
+
+.uk{
+  position: absolute;
+  top: 32%;
+  left: 65%;
+  color: white;
+  font-size: 30px;
+}
+
+.napatext{
+  position: absolute;
+  top: 103%;
+  left: 28%;
+  color: white;
+  font-size: 30px;
+}
+
+.sanomatext{
+  position: absolute;
+  top: 103%;
+  left: 46%;
+  color: white;
+  font-size: 30px;
+}
+
+.sanfran2text{
+  position: absolute;
+  top: 103%;
+  left: 62%;
+  color: white;
+  font-size: 30px;
+}

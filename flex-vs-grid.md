@@ -1,0 +1,1 @@
+### Flexbox and grid have similarities but differ in their own way. Flexbox is used more for in-line layout and focused more on keeping things in a row, or in a column but cant do both at the same time. Grid has the capabilities to line things up in two directions, using rows and columns. They mainly do the same thing, except one is a bit more complex than the other.

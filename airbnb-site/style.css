@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #555555;
+    background-color: #d0d0d0;
+}
+h1 {
+    margin: 50px 0 0 0;
+    font-size: 30px;
+}
+h4 {
+    font-size: 14px;
+}
+p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#sanfran {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("san-francisco.jpg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#sanfran p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+#nyc {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("nyc.jpg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#nyc p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+#london {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("london.jpg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#london p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+#napa {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("napa.jpg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#napa p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+#sonoma {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("sonoma.jpeg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#sonoma p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+#sanfran2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("san-francisco-2.jpg");
+    background-size: cover;
+    margin: 0 10px 0 10px;
+}
+#sanfran2 p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+.box {
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+}

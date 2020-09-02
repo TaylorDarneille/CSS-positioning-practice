@@ -1,0 +1,1 @@
+The main difference I noticed is that flexbox is one-dimensional while CSS grid is two-dimensional. With CSS you have more options on placement, which allows for a more complex design. Both methods allows you to design the layout of the page.

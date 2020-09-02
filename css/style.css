@@ -1,3 +1,44 @@
 h1 {
-  color: salmon;
+  color: gray;
+  text-align:center;
+  font-size:30px;
+}
+
+Body {
+  Background:lightgray;
+}
+#top {
+  color:gray;
+  text-align:center;
+}
+#first {
+  justify-content:flex-start;
+  height:auto;
+  font-size:5px;
+}
+
+img {
+  width:150px;
+  height:100px;
+  display:inline-block;
+  text-align:center;
+}
+div {
+  text-align:center
+}
+#middle {
+  font-size:20px;
+  font-weight:bold;
+  color:gray;
+  text-align:center;
+}
+#middlebottom {
+  font-size:10px;
+  color:gray;
+  text-align:center;
+}
+.button {
+  background-color: white;
+  width:300px;
+  margin: 10px auto; 
 }

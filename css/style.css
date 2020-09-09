@@ -3,7 +3,7 @@ body{
   background-color: rgb(238, 240, 237);
   text-align: center;
 }
-.firstParagraph{
+.Paragraph{
 
   font-family: 'Open Sans', sans-serif;
   display: flex;
@@ -11,24 +11,8 @@ body{
   color: dimgray;
   
 }
-.secondParagraph{
-
+.Title{
   font-family: 'Open Sans', sans-serif;
-  display: flex;
-  justify-content: center;
-  color: dimgray;
-  
-}
-.firstTitle{
-  font-family: 'Open Sans', sans-serif;
-  display: flex;
-  justify-content: center;
-  color: dimgray;
-  font-weight:bold;
-}
-.secondTitle{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: strong;
   display: flex;
   justify-content: center;
   color: dimgray;
@@ -40,48 +24,21 @@ img{
   height: 210px;
 
 }
-.groupOne{
+.group{
   display: flex;
   justify-content: center;
   align-items: center;
   
 
 }
-#imageOne{
-  padding: 5px;
+.image{
+  padding: 8px;
 }
 .textImageOne{
   position: absolute;
 
 }
-#imageTwo{
-  
-  padding: 5px;
-}
-#imageThree{
-  
-  padding: 5px;
-}
-.groupTwo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-
-#imageFour{
-  
-  padding: 11px;
-}
-#imageFive{
-  
-  padding: 11px;
-}
-
-#imageSix{
-  
-  padding: 11px;
-}
 .button{
   font-family: 'Open Sans', sans-serif;
   color: dimgray;

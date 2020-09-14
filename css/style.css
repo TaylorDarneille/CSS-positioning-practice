@@ -1,3 +1,38 @@
+
+
+
+
 h1 {
-  color: salmon;
+  text-align: center;
+  color: gray;
+  
+
 }
+
+h2 {
+  text-align: center;
+  color: gray;
+}
+
+
+
+p {
+  text-align: center;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: flex-end;
+align-items: flex-end;
+  }
+
+  .button {
+    background-color: white;
+    width: 300px;
+    margin: 10 auto;
+  }
+ 
+  

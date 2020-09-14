@@ -21,13 +21,18 @@ p {
 }
 
 .container {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows:  repeat(3,1fr);
-  align-items: center;
-  align-content: space-around;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: flex-end;
+align-items: flex-end;
   }
 
+  .button {
+    background-color: white;
+    width: 300px;
+    margin: 10 auto;
+  }
  
   
